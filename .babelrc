@@ -1,0 +1,13 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "targets": ">1%",
+                "corejs": 2,
+                "useBuiltIns": "usage"
+            }
+        ],
+        "@babel/preset-react"
+    ]
+}
