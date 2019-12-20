@@ -10,7 +10,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --config ./webpack.dev.js",
-    "dev:dll": "webpack --config ./webpack.dll.config.js",
+    "dll": "webpack --config ./webpack.dll.config.js",
     "build": "webpack --config ./webpack.pro.js",
     "server": "webpack-dev-server",
     "start:dev": "cross-env NODE_ENV=development webpack --config ./webpack.start.js",
