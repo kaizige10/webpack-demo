@@ -8,6 +8,13 @@
 - 在scripts中使用NODE_ENV=development形式传参
 - 在webpack配置文件中读取NODE_ENV，根据参数判断使用哪个模式进行打包
 
+### 使用方法
+
+1. npm install安装依赖
+2. npm run dll安装react动态链接库
+3. npm run start:dev开发模式打包
+4. npm run start:pro 生产模式打包
+
 ### 代码请参考
 
 1. package.json
